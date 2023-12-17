@@ -39,21 +39,21 @@
             <div class="col-lg-8">
                 <h1 class="display-4 mb-4">Contact</h1>
                 <p class="lead">Heeft u vragen of wilt u een afspraak maken? Neem dan gerust contact met ons op.</p>
-                <form action="contact.php" method="post">
+                <form action="https://formsubmit.co/laurens8@msn.com" method="POST">
                     <div class="mb-3">
-                        <label for="name" class="form-label">Naam</label>
+                        <label for="name" type="text" name="name" class="form-label">Naam</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Naam"
                             aria-describedby="nameHelp" required>
                         <div id="nameHelp" class="form-text">Vul hier uw naam in.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label">Emailadres</label>
+                        <label for="email" name="email" class="form-label">Emailadres</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Emailadres"
                             aria-describedby="emailHelp" required>
                         <div id="emailHelp" class="form-text">Vul hier uw emailadres in.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Bericht</label>
+                        <label for="message" name="message" class="form-label">Bericht</label>
                         <textarea class="form-control" id="message" name="message" rows="3" placeholder="Bericht"
                             required></textarea>
                     </div>
